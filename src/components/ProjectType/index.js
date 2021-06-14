@@ -94,6 +94,7 @@ export default function ProjectType() {
             представления в дальнейшем, Vue также будет хорошим решением под
             данную задачу.
           </div>
+          
         </Route>
       </Switch>
     </>
