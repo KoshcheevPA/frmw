@@ -24,9 +24,9 @@ function App() {
                 <li className={'mb-3'}>
                   <NavLink to={'/quiz'} className="ms-1 d-none d-sm-inline">Выбор по опросу</NavLink>
                 </li>
-                {/*<li className={'mb-3'}>*/}
-                {/*  <NavLink to={'/project_type'} className="ms-1 d-none d-sm-inline">Выбор по типу проекта</NavLink>*/}
-                {/*</li>*/}
+                <li className={'mb-3'}>
+                  <NavLink to={'/project_type'} className="ms-1 d-none d-sm-inline">Выбор по типу проекта</NavLink>
+                </li>
                 <li>
                   <span className="ms-1 d-none d-sm-inline">Фреймворки</span>
                   <ul className="flex-column">

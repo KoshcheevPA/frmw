@@ -78,8 +78,11 @@ export default function Quiz() {
   const onItemCallback = (obj) => {
     setResult({...result, [obj.form]: obj.action})
   };
+
   const onSubmit = () => {
-    console.log(result)
+    if(r.react === 0 && r.vue === 0) {
+      return;
+    }
     let res = {
       angular: 0,
       vue: 0,
